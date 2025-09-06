@@ -3,153 +3,160 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Infographic: Digital Marketing Funnel</title>
+<title>Digital Marketing Funnel Infographic & Answers</title>
 <style>
   body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background: #f9fafc;
-    margin: 0;
-    padding: 30px;
-    color: #2c3e50;
+    font-family: 'Arial', sans-serif;
+    background: #f0f4f8;
+    margin: 0; padding: 40px;
+    color: #333;
   }
-  .infographic {
+  .container {
     max-width: 700px;
     margin: auto;
     background: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-    padding: 40px 50px;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.12);
   }
-  .infographic h1 {
-    font-size: 32px;
+  h1, h2 {
+    color: #2c3e50;
     text-align: center;
-    color: #1abc9c;
-    margin-bottom: 40px;
     font-weight: 700;
   }
-  .stage {
+  h1 {
+    margin-bottom: 20px;
+  }
+  h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #2980b9;
+  }
+  .step {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
   }
-  .number {
-    background: #1abc9c;
+  .icon-circle {
+    background: #3498db;
     color: white;
-    width: 46px;
-    height: 46px;
-    border-radius: 50%;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 22px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    margin-right: 20px;
+    margin-right: 25px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
   }
-  .stage-content {
+  .step-content {
     flex-grow: 1;
   }
-  .stage-title {
+  .step-title {
     font-size: 22px;
     font-weight: 600;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
+    color: #2980b9;
   }
-  .stage-description {
+  .step-text {
     font-size: 16px;
-    color: #566573;
-    line-height: 1.4;
+    color: #555;
+    line-height: 1.5;
   }
-  .answers {
-    background: #eaf6f6;
+  .qa-section {
+    background: #eaf4fb;
     margin-top: 50px;
     border-radius: 12px;
-    padding: 25px 35px;
-    font-size: 16px;
+    padding: 30px 35px;
     color: #2c3e50;
   }
-  .answers h2 {
-    color: #16a085;
-    font-weight: 700;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  .answers p {
-    margin-bottom: 15px;
-  }
   .question {
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 18px;
     margin-top: 20px;
   }
-  .copyright {
-    text-align: center;
-    margin-top: 40px;
-    color: #99a3a4;
-    font-style: italic;
+  .answer {
+    font-size: 16px;
+    margin-top: 8px;
+    line-height: 1.5;
+    color: #3a4a61;
+  }
+  footer {
+    margin-top: 60px;
     font-size: 14px;
+    color: #7f8c8d;
+    text-align: center;
+    font-style: italic;
   }
 </style>
 </head>
 <body>
-  <div class="infographic">
-    <h1>The Digital Marketing Funnel</h1>
-    <div class="stage">
-      <div class="number">1</div>
-      <div class="stage-content">
-        <div class="stage-title">Awareness</div>
-        <div class="stage-description">Reach potential customers through ads, social media, and SEO to make them aware of your brand.</div>
+  <div class="container">
+    <h1>Digital Marketing Funnel</h1>
+    <h3 style="text-align:center; color:#555; margin-bottom:40px;">From Awareness to Conversion</h3>
+    
+    <div class="step">
+      <div class="icon-circle">1</div>
+      <div class="step-content">
+        <div class="step-title">Awareness</div>
+        <div class="step-text">Reach potential customers through ads, social media, and SEO to make them aware of your brand.</div>
       </div>
     </div>
-    <div class="stage">
-      <div class="number">2</div>
-      <div class="stage-content">
-        <div class="stage-title">Interest</div>
-        <div class="stage-title"></div>
-        <div class="stage-description">Engage users with valuable content, blog posts, and newsletters to spark interest in your products or services.</div>
+    <div class="step">
+      <div class="icon-circle">2</div>
+      <div class="step-content">
+        <div class="step-title">Interest</div>
+        <div class="step-text">Engage with valuable content, blog posts, and newsletters to spark interest in your products or services.</div>
       </div>
     </div>
-    <div class="stage">
-      <div class="number">3</div>
-      <div class="stage-content">
-        <div class="stage-title">Consideration</div>
-        <div class="stage-description">Provide demos, case studies, and customer testimonials to help prospects evaluate your offerings.</div>
+    <div class="step">
+      <div class="icon-circle">3</div>
+      <div class="step-content">
+        <div class="step-title">Consideration</div>
+        <div class="step-text">Provide demos, case studies, and testimonials to help prospects evaluate your offerings.</div>
       </div>
     </div>
-    <div class="stage">
-      <div class="number">4</div>
-      <div class="stage-content">
-        <div class="stage-title">Intent</div>
-        <div class="stage-description">Encourage potential buyers to take action with targeted offers, discounts, and personal communication.</div>
+    <div class="step">
+      <div class="icon-circle">4</div>
+      <div class="step-content">
+        <div class="step-title">Intent</div>
+        <div class="step-text">Encourage potential buyers to take action with targeted offers and personal communication.</div>
       </div>
     </div>
-    <div class="stage">
-      <div class="number">5</div>
-      <div class="stage-content">
-        <div class="stage-title">Conversion</div>
-        <div class="stage-description">Convert leads into customers by completing purchases and providing smooth checkout experiences.</div>
+    <div class="step">
+      <div class="icon-circle">5</div>
+      <div class="step-content">
+        <div class="step-title">Conversion</div>
+        <div class="step-text">Convert leads into customers by completing purchases and providing smooth checkout experiences.</div>
       </div>
     </div>
-    <div class="stage">
-      <div class="number">6</div>
-      <div class="stage-content">
-        <div class="stage-title">Loyalty</div>
-        <div class="stage-description">Build lasting relationships with follow-up support, loyalty programs, and continued engagement.</div>
+    <div class="step">
+      <div class="icon-circle">6</div>
+      <div class="step-content">
+        <div class="step-title">Loyalty</div>
+        <div class="step-text">Build lasting relationships with follow-ups, loyalty programs, and continued engagement.</div>
       </div>
     </div>
-    <div class="answers">
-      <h2>Assignment Explanation</h2>
-      <p class="question">a. What type of content did you create?</p>
-      <p>I created a modern infographic poster that visually explains the stages of the digital marketing funnel from awareness to conversion. It is designed for easy understanding and professionalism.</p>
+
+    <div class="qa-section">
+      <h2>Assignments Q&A</h2>
+      <div class="question">a. What type of content did you create?</div>
+      <div class="answer">I created a modern infographic poster that visually explains the stages of the digital marketing funnel from awareness to conversion. It is designed for easy understanding and professionalism.</div>
       
-      <p class="question">b. Why is it original?</p>
-      <p>This infographic is original because the content structure, visual style, colors, and descriptions are uniquely composed and coded by me. It reflects a clear, concise approach tailored for digital marketing education.</p>
+      <div class="question">b. Why is it original?</div>
+      <div class="answer">This infographic is original because the content structure, visual style, colors, and descriptions are uniquely composed and coded by me. It reflects a clear, concise approach tailored for digital marketing education.</div>
       
-      <p class="question">c. How does copyright protect it?</p>
-      <p>Copyright protects my infographic by granting me exclusive rights to reproduce, distribute, and display this work. Others cannot legally use, share, or modify it without my permission, which preserves my creative authorship.</p>
+      <div class="question">c. How does copyright protect it?</div>
+      <div class="answer">Copyright protects my infographic by granting me exclusive rights to reproduce, distribute, and display this work. Others cannot legally use, share, or modify it without my permission, which preserves my creative authorship.</div>
       
-      <p class="question">d. If someone copied your work, how would you handle it?</p>
-      <p>If someone copied my infographic without authorization, I would first request that they remove it or give proper credit. If the infringement continued, I would report it to the hosting platform and assert my rights using copyright laws to protect my intellectual property.</p>
+      <div class="question">d. If someone copied your work, how would you handle it?</div>
+      <div class="answer">If someone copied my infographic without authorization, I would first request that they remove it or give proper credit. If the infringement continued, I would report it to the hosting platform and assert my rights using copyright laws to protect my intellectual property.</div>
     </div>
-    <div class="copyright">© Riya Shukla 2025</div>
+    
+    <footer>© Riya Shukla 2025</footer>
   </div>
 </body>
 </html>
